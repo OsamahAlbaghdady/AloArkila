@@ -7,7 +7,7 @@ use App\Models\VerifyCode;
 
 class MobileServices {
 
-    public function CrateVerifyCodeOnTable($account , $code)
+    public function CreateVerifyCodeOnTable($account , $code)
     {
         $account->verifyCode;
     }
